@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@auditLogs/*": ["src/auditLogs/*"],
+      "@auth/*": ["src/auth/*"],
+      "@common/*": ["src/common/*"],
+      "@permissions/*": ["src/permissions/*"],
+      "@profile/*": ["src/profile/*"],
+      "@roles/*": ["src/roles/*"],
+      "@shared/*": ["src/shared/*"],
+      "@users/*": ["src/users/*"],
+      "@company/*": ["src/company/*"],
+      "@settings/*": ["src/settings/*"]
+    }
+  }
+}
