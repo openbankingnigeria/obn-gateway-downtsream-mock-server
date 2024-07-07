@@ -2,9 +2,11 @@
   "name": "obn-gateway-downtsream-mock-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server"
   },
   "keywords": [],
   "author": "",

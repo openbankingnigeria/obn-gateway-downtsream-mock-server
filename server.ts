@@ -42,7 +42,7 @@ const setupRoutes = (collection: Collection | ItemGroup<Item>): void => {
         try {
           const exampleResponse = getExampleResponse(item);
           if (exampleResponse) {
-            res.status(exampleResponse.code);
+            res.status(exampleResponse.code || 200);
             exampleResponse.headers.each((header) => {
               res.set(header.key, header.value);
             });
